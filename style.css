@@ -4,6 +4,9 @@
     text-decoration: none;
     /*border-style: solid;*/
 }
+p{
+    font-size: 110%;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -38,11 +41,11 @@
     font-weight:800;
 }
 .img-fluid {
-    padding-top: 15px;
+    padding-top: 5px;
 }
 .logo {
     width: 15%;
-    max-width: 200px;
+    max-width: 50px;
     margin-left: -5px;
     margin-right: -5px;
     padding: 0;
@@ -54,6 +57,7 @@
     margin-left: 2px;
     margin-right: 2px;
 }
+
 /* ID Styles */
 #about-me-background {
     background-image: url("images/MinimalBackground.jpg");    

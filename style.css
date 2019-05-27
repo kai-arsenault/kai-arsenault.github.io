@@ -7,6 +7,14 @@
 p{
     font-size: 110%;
 }
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+a,a:link{
+    color:#000000;
+    text-decoration: none;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -18,24 +26,28 @@ p{
     font-weight: 500;
 }
 .nav-link {
-    color: rgb(0, 70, 161);
+    color:#0046a1 !important;
     font-family: 'Pacifico', cursive;
+    text-decoration: none !important;
 }
     /* Other Styles */
 .transbox {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 2%;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     margin-left: 10%;
     margin-right: 10%;
-    overflow: scroll;
     
+    overflow: scroll;
     height: 100%
     /*
+    
+
     margin: 2%;
     border-radius: 15px;
     */
 }
+
 .page-titles {
     text-align: center;
     font-weight:800;
@@ -56,6 +68,9 @@ p{
     opacity: 1;
     margin-left: 2px;
     margin-right: 2px;
+}
+.center-text{
+    text-align: center;
 }
 
 /* ID Styles */

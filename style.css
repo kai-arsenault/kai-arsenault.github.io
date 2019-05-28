@@ -25,11 +25,12 @@ a,a:link{
     font-family: 'Pacifico', cursive;
     font-weight: 500;
 }
-.nav-link {
+.nav-link, .dropdown-item {
     color:#0046a1 !important;
     font-family: 'Pacifico', cursive;
     text-decoration: none !important;
 }
+
     /* Other Styles */
 .transbox {
     background-color: rgba(255, 255, 255, 0.3);

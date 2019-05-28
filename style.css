@@ -45,6 +45,7 @@ a,a:link{
 .page-titles {
     text-align: center;
     font-weight:800;
+    padding-bottom: 5%;
 }
 .img-fluid {
     padding-top: 5px;
@@ -63,9 +64,19 @@ a,a:link{
     margin-left: 2px;
     margin-right: 2px;
 }
+.logo-contact {
+    width: 15%;
+    max-width: 50px;
+    padding: 0;
+    margin-top: 5px;
+}
 .center-text{
     text-align: center;
 }
+.contact-link {
+    text-decoration: underline !important;
+}
+
 
 /* ID Styles */
 #about-me-background {

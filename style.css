@@ -41,7 +41,6 @@ a,a:link{
     overflow: scroll;
     height: 100%
 }
-
 .page-titles {
     text-align: center;
     font-weight:800;
@@ -69,6 +68,7 @@ a,a:link{
     max-width: 50px;
     padding: 0;
     margin-top: 5px;
+    margin-left: 5%;
 }
 .center-text{
     text-align: center;
@@ -76,7 +76,12 @@ a,a:link{
 .contact-link {
     text-decoration: underline !important;
 }
-
+.page-divider {
+    width: 70%;
+}
+.project-snip-indent {
+    margin-left: 5%;
+}
 
 /* ID Styles */
 #about-me-background {

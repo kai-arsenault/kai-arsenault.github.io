@@ -34,14 +34,18 @@ a,a:link{
     font-family: 'Pacifico', cursive;
     text-decoration: none !important;
 }
-.transbox {
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 3%;
-    padding-bottom: 200px;
-    margin-left: 10%;
-    margin-right: 10%;
+.scroll-transbox { 
+    padding-bottom: 75px;
     overflow: scroll;
     height: 100%
+}
+.transbox {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+    border-radius: 10px;
 }
 .page-titles {
     text-align: center;
